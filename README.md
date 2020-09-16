@@ -3,6 +3,8 @@ Have you ever had locked out of your WordPress because of an IP/URL change or mo
 
 This bash script will help you fix that and update your WordPress URL or IP.
 
-easy run:
+## How to run:
 
-wget -O - https://raw.githubusercontent.com/arvage/Wordpress_URL_Changer/master/update.sh | bash
+    wget https://raw.githubusercontent.com/arvage/Wordpress_URL_Changer/master/update.sh
+    chmod +x update.sh
+    ./update.sh
