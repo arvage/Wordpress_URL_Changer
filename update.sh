@@ -48,4 +48,4 @@ mysql -u root $DB -e "UPDATE wp_posts SET guid = replace(guid, '$CURRENT_URL','$
 mysql -u root $DB -e "UPDATE wp_posts SET post_content = replace(post_content, '$CURRENT_URL', '$NEW_URL');"
 
 mysql -u root $DB -e "UPDATE wp_postmeta SET meta_value = replace(meta_value,'$CURRENT_URL','$NEW_URL');"
-echo -e "${GREEN}\n\nDone!${NC}"
+echo -e "${GREEN}\n\nDone!${NC}\n\n"
