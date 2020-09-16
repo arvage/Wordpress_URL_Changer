@@ -11,8 +11,8 @@ GREEN='\033[0;32m'      # Green
 if [[ "${UID}" -ne 0 ]]
 then 
   echo;echo
-  echo -e "${RED}You must be root to run this command." >&2
-  echo -e "Please run it with sudo${NC}" >&2
+  echo -e "${RED}You must be root to run this script." >&2
+  echo -e "Please run it with sudo (sudo ./update.sh)${NC}" >&2
   echo
   exit 1
 fi
