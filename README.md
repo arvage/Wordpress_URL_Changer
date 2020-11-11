@@ -8,3 +8,5 @@ This bash script will help you fix that and update your WordPress URL or IP.
     wget https://raw.githubusercontent.com/arvage/Wordpress_URL_Changer/master/update.sh
     chmod +x update.sh
     ./update.sh
+    
+    
